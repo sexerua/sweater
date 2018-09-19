@@ -90,8 +90,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-09-17.23:03:45.254</IntrospectionTimestamp>
-      <IntrospectionStateNumber>566</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-09-19.12:25:24.338</IntrospectionTimestamp>
+      <IntrospectionStateNumber>571</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -219,11 +219,11 @@
       <StateNumber>565</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="36" parent="26" name="action">
+    <column id="36" parent="26" name="active">
       <Position>2</Position>
       <DataType>boolean|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>565</StateNumber>
+      <StateNumber>571</StateNumber>
       <TypeId>16</TypeId>
     </column>
     <column id="37" parent="26" name="password">
