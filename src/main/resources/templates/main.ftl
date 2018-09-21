@@ -5,7 +5,9 @@
     <div>
         <@l.loguot />
     </div>
-
+    <div>
+        <a href="/user">User List</a>
+    </div>
     <div>
         <form method="post">
             <input type="text" name="text" placeholder="Write message">
