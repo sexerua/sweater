@@ -17,9 +17,11 @@ public class Message {
     private String text;
     private String tag;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType. EAGER)
     @JoinColumn(name = "user_id")
     private User author;
+
+    private String filename;
 
     public Message(String text, String tag, User user) {
         this.text = text;
@@ -27,7 +29,8 @@ public class Message {
         this.author = user;
     }
 
-    public String getAuthorName(){
+    public String getAuthorName()
+    {
         return author != null ? author.getUsername() : "<none>";
     }
 }
